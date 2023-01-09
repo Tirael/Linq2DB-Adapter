@@ -1,1 +1,1 @@
-# Linq2DB-Adapter
+# Linq2Db-Adapter

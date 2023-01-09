@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>11</LangVersion>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Casbin.NET.Adapter.Linq2DB</PackageId>
+    <PackageIcon>casbin.png</PackageIcon>
+    <Authors>Casbin.NET</Authors>
+    <RepositoryType>GIT</RepositoryType>
+    <RepositoryUrl>https://github.com/Tirael/Linq2DB-Adapter</RepositoryUrl>
+    <Copyright>Apache License 2.0</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Tirael/Linq2DB-Adapter</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Casbin.NET" Version="1.13.0" />
+    <PackageReference Include="FluentMigrator" Version="3.3.2" />
+    <PackageReference Include="linq2db" Version="4.4.0" />
+    <PackageReference Include="linq2db.AspNet" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="casbin.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+  
+</Project>
